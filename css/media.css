@@ -1,0 +1,504 @@
+@media screen and (max-width: 992px) {
+    .swiper {
+        width: 100%;
+        height: auto !important;
+        padding: 0 !important;
+    }
+
+    .sort {
+        display: none;
+    }
+
+    .blog_section_block {
+        display: grid;
+        text-decoration: none;
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+
+
+    }
+
+    .blog_show_block {
+        display: grid;
+        text-decoration: none;
+        padding: 10px;
+        grid-template-columns: repeat(2, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .blog_section_block-box_img {
+        width: 100%;
+        height: 235px;
+        object-fit: cover;
+    }
+
+    #fotr_title {
+        text-align: center;
+    }
+
+    .tutor-lesson-tabs-content-video-area {
+        padding: 20px 0;
+    }
+
+    .tutor-sing-page-wrap {
+        position: relative;
+    }
+
+    .tutor-lesson-sidebar {
+        position: absolute;
+        top: 0;
+        width: 400px;
+        max-width: 95%;
+        height: calc(100% - 75px);
+        z-index: 9;
+        background: #fff;
+        overflow-y: auto;
+        position: absolute !important;
+        right: 0 !important;
+
+    }
+
+    .blog_section_header-block-left-title {
+
+        font-size: 20px;
+        letter-spacing: 2px;
+
+    }
+
+    .blog-link_section-right_block_img {
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px 0;
+        height: 300px;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .header-fon-img {
+        order: -1 !important;
+        margin-bottom: 30px !important;
+    }
+
+    .category-order,
+    .themes-order {
+        order: -1;
+    }
+
+    .main_box-blocks-filtr {
+        position: fixed;
+
+        padding-top: inherit;
+        top: 0%;
+        right: 0;
+        height: 100vh;
+        display: flex;
+        transform: translateX(-100%);
+        transition: 1s ease-in;
+        z-index: 100;
+    }
+
+    .active {
+
+        transform: translateX(0%);
+
+    }
+
+    .main_box-blocks-filtr-item {
+        background: #e9e8e8;
+        width: 50%;
+        float: left;
+        height: 100vh;
+        padding: 20px 15px;
+    }
+
+    .main_box {
+        margin-top: 100px;
+    }
+
+    .header-fon {
+        padding-top: 50px;
+    }
+
+    .media_filter {
+        justify-content: space-between;
+        padding: 20px 20px;
+        display: flex;
+    }
+
+    .media_filter-right {
+
+        border-radius: 10px;
+        padding: 10px;
+        display: flex;
+
+    }
+
+    .media_filter-right .filter {
+        padding: 0 10px;
+    }
+
+    .media_filter-right p {
+        font-size: 18px;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+
+    .divs {
+        position: fixed;
+        top: 0;
+        left: 0;
+        background: #25222296;
+        box-shadow: inset 7px 7px 13px #1e1c1c, inset -7px -7px 13px #2c2828;
+        transform: translateX(-100%);
+        width: 100%;
+        height: 100vh;
+        transition: 0.5s;
+        z-index: 100;
+    }
+
+    .divs.activet {
+        transform: translateX(0%);
+
+    }
+
+    .main_box-blocks-item-figure img {
+        width: 100%;
+        height: 100%;
+        object-fit: revert;
+    }
+
+    .media_filter {
+        justify-content: space-between;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .media_filter-right {
+        border-radius: 10px;
+        padding: 10px 0;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .media_filter-right-left {
+        background: #ddd;
+        width: 100%;
+        padding: 12px 0;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .media_filter-right-right {
+        background: #ddd;
+        width: 100%;
+        padding: 12px 0;
+        margin: 0 10px;
+        text-align: center;
+    }
+
+    .close_block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .btn_x {
+        font-size: 18px;
+    }
+
+    .media_filter-left {
+        text-align: center;
+    }
+
+    .sort {
+        position: fixed;
+        top: 0;
+        left: 0;
+        transform: translateY(-100%);
+        right: 0;
+        z-index: 102;
+    }
+
+    .sort.topping {
+        transform: translateY(50%);
+        transition: 1s;
+    }
+
+    .sort {
+        display: block;
+        padding: 0 20px;
+    }
+
+    .sort .container {
+        background: #fff;
+        padding: 10px 10px;
+        border: 1px solid black;
+    }
+
+    .sort_block {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-bottom: 1px solid #000;
+        padding-bottom: 10px;
+    }
+
+    .sort_box-left_btn {
+        padding: 12px 30px;
+        background: transparent;
+        color: black;
+        border: 1px solid black;
+        border-radius: 10px;
+        outline: none;
+        text-align: center;
+        margin: auto;
+        display: flex;
+    }
+
+    .sort_box {
+        padding-top: 10px;
+    }
+
+    .blog-link_section-title::after {
+        content: '';
+        display: block;
+        width: 100%;
+        text-align: center;
+        margin: auto;
+    }
+
+    .tutor-lesson-tabs-content-video-text-level-con {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .blog-link_section-box-left-title {
+        font-size: 18px;
+        line-height: 28px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-box-items {
+        padding: 0 30px !important;
+    }
+
+    .main_box-blocks-item-text {
+        padding: 10px 18px;
+        min-height: 100px !important;
+        display: flex;
+        margin: 0px 0 30px 0;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .footer_block-box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .footer_block-box a {
+        font-size: 18px;
+        letter-spacing: 2px;
+    }
+
+    .swiper-slide .row {
+        padding: 0 50px;
+    }
+
+    .media_filter {
+        justify-content: space-between;
+        padding: 20px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main_box-blocks-filtr-item {
+        background: #e9e8e8;
+        width: 75%;
+        float: left;
+        height: 100vh;
+        padding: 20px 15px;
+    }
+
+    .blog_section_block {
+        display: grid;
+        text-decoration: none;
+        padding: 10px;
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .blog_show_block {
+        display: grid;
+        text-decoration: none;
+        padding: 10px;
+        grid-template-columns: 1fr;
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+    }
+
+    .data_footer_block {
+        display: flex;
+        padding-top: 15px;
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .tutor-lesson-sidebar {
+        position: absolute;
+        right: 0;
+        left: 0;
+        width: 100%;
+        max-width: 100%;
+        height: calc(100% - 70px);
+        z-index: 9;
+
+    }
+
+    .tutor-lesson-tabs-content-video-text-level-con p {
+
+        font-size: 13px;
+    }
+
+    .blog_section_header-block {
+        flex-direction: column;
+    }
+
+    .blog_section_header-block-right-right_btn {
+        padding: 5px 30px;
+    }
+
+    .blog-link_section-right_block_img {
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px 0;
+        height: 200px;
+    }
+
+    .tutor-lesson-tabs-content-video-area-header h2 {
+        text-align: left !important;
+        padding-left: 20px !important;
+    }
+
+    .tutor-single-lesson-segment {
+        width: 100%;
+        height: 400px !important;
+    }
+
+    .tutor-lesson-tabs-content-video-text-level-con {
+        justify-content: flex-start !important;
+    }
+    
+}
+@media (max-width: 415px) {
+    .media_filter {
+        justify-content: space-between;
+        padding: 20px 0px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .swiper-slide .row {
+        padding: 0 0px;
+    }
+
+    .main_box-blocks-filtr-item {
+        background: #e9e8e8;
+        width: 100%;
+        float: left;
+        height: 100vh;
+        padding: 20px 15px;
+    }
+
+    .footer {
+        min-height: 10vh;
+        padding: 20px 0;
+    }
+
+    .tutor-lesson-tabs-content-video-text-level-con {
+        justify-content: space-between !important;
+    }
+
+    .tutor-lesson-tabs-content-video-text-level-con p:first-child {
+        margin-right: 0px;
+    }
+
+    .tutor-lesson-tabs-content-video-text-level-con {
+        width: 100%;
+    }
+
+    .blog-link_section-box {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .blog-link_section-right_block_img {
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px 0;
+        height: 150px;
+    }
+
+    .tutor-lesson-tabs-content-video-area {
+        margin: 20px;
+    }
+
+    .tutor-single-lesson-segment {
+        width: 100%;
+        height: 300px !important;
+    }
+
+    .tutor-lesson-sidebar {
+        height: 100% !important;
+    }
+
+    .tutor-lesson-tabs-content-video-area-header h2 {
+        font-size: 18px !important;
+    }
+    .tutor-lesson-tabs-content-video-area-header{
+        padding: 10px 0 !important;
+    }
+
+}
+
+@media (max-width: 351px) {
+    .main-box-items {
+        padding: 0 20px !important;
+    }
+
+    .data_footer {
+        text-align: center;
+    }
+
+    .blog_section_header-block-right-right_btn {
+
+        padding: 5px 15px;
+    }
+
+    .blog_section_header-block-left-title {
+        font-size: 20px;
+        letter-spacing: 0px;
+    }
+
+    .blog-link_section-right_block_img {
+        width: 100%;
+        border-radius: 10px;
+        margin: 10px 0;
+        height: 100px;
+    }
+}
